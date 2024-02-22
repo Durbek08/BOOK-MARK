@@ -13,11 +13,11 @@
   max-width: 1144px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .header-img {
@@ -254,9 +254,10 @@
   line-height: 28px;
   letter-spacing: 0px;
   text-align: left;
-  padding: 10px 24px ;
+  padding: 10px 24px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .hero-left-btn2 {
@@ -275,6 +276,7 @@
   padding-right: 24px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 .hero-right-img {
   width: 578px;
@@ -335,7 +337,71 @@
     margin-left: auto;
     margin-right: auto;
   }
- .hero-left-btn{
-  font-size: 12px;
- }
+  .hero-left-btn {
+    font-size: 12px;
+  }
+}
+
+.features {
+  padding-top: 40px;
+  padding-bottom: 75px;
+  background-color: white;
+}
+.features-container {
+  max-width: 1144px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.features-title {
+  color: #242a45;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.features-text {
+  opacity: 50%;
+  color: #242a45;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 72px;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 5px;
+}
+.features-item {
+}
+.features-link {
+  color: #242a45;
+  padding: 0 0px 30px;
+  border-bottom: solid 4px transparent;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.533333420753479px;
+  text-align: center;
+  text-decoration: none;
+  width: 243px;
+  display: block;
+}
+
+.features-link.active{
+  border-bottom: 4px solid #fa5959;
 }
