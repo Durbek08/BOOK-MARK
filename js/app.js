@@ -12,3 +12,13 @@ sectionn.style.display = 'none'
 headerHamburger.addEventListener('click' , function(){
     sectionn.style.display = 'block'
 })
+
+let featuresLink = document.querySelectorAll('.features-link')
+featuresLink.forEach(function(item){
+    item.addEventListener('click' , function(){
+        featuresLink.forEach(function(element){
+            element.classList.remove("active")
+        })
+        item.classList.add("active")
+    })
+})

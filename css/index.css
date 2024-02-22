@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .header {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -62,6 +66,8 @@
   border-radius: 6px;
   background-color: transparent;
   cursor: pointer;
+  transition: all .3s;
+
 }
 
 .header-btn:active {
